@@ -72,15 +72,15 @@ const PhotoCapture = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <div className="min-h-screen bg-background p-4">
       <div className="max-w-3xl mx-auto">
         <div className="mb-8 text-center">
-          <h1 className="text-4xl font-bold text-slate-800 mb-2">Photo Capture</h1>
-          <p className="text-slate-600">Please take a clear photo for your visitor badge</p>
+          <h1 className="text-4xl font-bold text-foreground mb-2">Photo Capture</h1>
+          <p className="text-muted-foreground">Please take a clear photo for your visitor badge</p>
         </div>
 
         <Card className="shadow-xl border-0">
-          <CardHeader className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-t-lg">
+          <CardHeader className="bg-gradient-to-r from-orange-500 to-orange-600 text-black rounded-t-lg">
             <CardTitle className="text-2xl flex items-center gap-2">
               <Camera className="h-6 w-6" />
               Visitor Photo

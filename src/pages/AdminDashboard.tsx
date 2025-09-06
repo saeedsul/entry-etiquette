@@ -50,11 +50,11 @@ const AdminDashboard = () => {
   const activeVisitors = visitors.filter(v => v.status === "checked-in");
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 p-4">
+    <div className="min-h-screen bg-background p-4">
       <div className="max-w-7xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-slate-800 mb-2">Admin Dashboard</h1>
-          <p className="text-slate-600">Monitor and manage visitor activity</p>
+          <h1 className="text-3xl font-bold text-foreground mb-2">Admin Dashboard</h1>
+          <p className="text-muted-foreground">Monitor and manage visitor activity</p>
         </div>
 
         {/* Stats Cards */}

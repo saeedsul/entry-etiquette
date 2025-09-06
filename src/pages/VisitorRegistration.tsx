@@ -55,15 +55,15 @@ const VisitorRegistration = () => {
                       formData.company && formData.employee && formData.purpose;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <div className="min-h-screen bg-background p-4">
       <div className="max-w-2xl mx-auto">
         <div className="mb-8 text-center">
-          <h1 className="text-4xl font-bold text-slate-800 mb-2">Visitor Registration</h1>
-          <p className="text-slate-600">Please fill in your details to register your visit</p>
+          <h1 className="text-4xl font-bold text-foreground mb-2">Visitor Registration</h1>
+          <p className="text-muted-foreground">Please fill in your details to register your visit</p>
         </div>
 
         <Card className="shadow-xl border-0">
-          <CardHeader className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-t-lg">
+          <CardHeader className="bg-gradient-to-r from-orange-500 to-orange-600 text-black rounded-t-lg">
             <CardTitle className="text-2xl flex items-center gap-2">
               <Users className="h-6 w-6" />
               Your Information
@@ -72,7 +72,7 @@ const VisitorRegistration = () => {
           <CardContent className="p-8 space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <Label htmlFor="name" className="text-slate-700 font-medium">Full Name *</Label>
+                <Label htmlFor="name" className="text-foreground font-medium">Full Name *</Label>
                 <Input
                   id="name"
                   placeholder="Enter your full name"
