@@ -45,10 +45,10 @@ const Index = () => {
 
         {/* Main Action Card */}
         <div className="max-w-2xl mx-auto mb-16">
-          <Card className="shadow-2xl border-0 bg-gradient-to-r from-orange-500 to-orange-600 text-black">
+          <Card className="shadow-2xl border-0 bg-gradient-to-r from-orange-500 to-orange-600 text-white">
             <CardHeader className="text-center pb-8">
               <CardTitle className="text-3xl font-bold mb-4">Start Your Visit</CardTitle>
-              <p className="text-black/80 text-lg">
+              <p className="text-white/90 text-lg">
                 Register as a visitor and receive your digital badge
               </p>
             </CardHeader>
@@ -110,28 +110,28 @@ const Index = () => {
           <h3 className="text-2xl font-bold text-foreground text-center mb-8">How It Works</h3>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="w-12 h-12 bg-orange-500 text-black rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
+              <div className="w-12 h-12 bg-orange-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
                 1
               </div>
               <h4 className="font-semibold text-foreground mb-2">Enter Details</h4>
               <p className="text-sm text-muted-foreground">Provide your contact information and visit purpose</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 bg-orange-500 text-black rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
+              <div className="w-12 h-12 bg-orange-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
                 2
               </div>
               <h4 className="font-semibold text-foreground mb-2">Select Company</h4>
               <p className="text-sm text-muted-foreground">Choose the company and employee you're visiting</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 bg-orange-500 text-black rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
+              <div className="w-12 h-12 bg-orange-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
                 3
               </div>
               <h4 className="font-semibold text-foreground mb-2">Take Photo</h4>
               <p className="text-sm text-muted-foreground">Capture a clear photo for your visitor badge</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 bg-orange-500 text-black rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
+              <div className="w-12 h-12 bg-orange-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
                 4
               </div>
               <h4 className="font-semibold text-foreground mb-2">Get Badge</h4>

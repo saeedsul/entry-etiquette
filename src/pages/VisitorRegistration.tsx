@@ -63,7 +63,7 @@ const VisitorRegistration = () => {
         </div>
 
         <Card className="shadow-xl border-0">
-          <CardHeader className="bg-gradient-to-r from-orange-500 to-orange-600 text-black rounded-t-lg">
+          <CardHeader className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-t-lg">
             <CardTitle className="text-2xl flex items-center gap-2">
               <Users className="h-6 w-6" />
               Your Information
@@ -82,7 +82,7 @@ const VisitorRegistration = () => {
                 />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="email" className="text-slate-700 font-medium">Email Address *</Label>
+                <Label htmlFor="email" className="text-foreground font-medium">Email Address *</Label>
                 <Input
                   id="email"
                   type="email"
@@ -95,7 +95,7 @@ const VisitorRegistration = () => {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="phone" className="text-slate-700 font-medium">Phone Number *</Label>
+              <Label htmlFor="phone" className="text-foreground font-medium">Phone Number *</Label>
               <Input
                 id="phone"
                 placeholder="(555) 123-4567"
@@ -107,7 +107,7 @@ const VisitorRegistration = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <Label className="text-slate-700 font-medium">Company Visiting *</Label>
+                <Label className="text-foreground font-medium">Company Visiting *</Label>
                 <Select value={formData.company} onValueChange={(value) => handleInputChange("company", value)}>
                   <SelectTrigger className="h-12 text-lg">
                     <SelectValue placeholder="Select a company" />
@@ -126,7 +126,7 @@ const VisitorRegistration = () => {
               </div>
 
               <div className="space-y-2">
-                <Label className="text-slate-700 font-medium">Employee to Visit *</Label>
+                <Label className="text-foreground font-medium">Employee to Visit *</Label>
                 <Select 
                   value={formData.employee} 
                   onValueChange={(value) => handleInputChange("employee", value)}
@@ -150,7 +150,7 @@ const VisitorRegistration = () => {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="purpose" className="text-slate-700 font-medium">Purpose of Visit *</Label>
+              <Label htmlFor="purpose" className="text-foreground font-medium">Purpose of Visit *</Label>
               <Textarea
                 id="purpose"
                 placeholder="Please describe the purpose of your visit..."

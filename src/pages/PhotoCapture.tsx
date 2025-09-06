@@ -80,7 +80,7 @@ const PhotoCapture = () => {
         </div>
 
         <Card className="shadow-xl border-0">
-          <CardHeader className="bg-gradient-to-r from-orange-500 to-orange-600 text-black rounded-t-lg">
+          <CardHeader className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-t-lg">
             <CardTitle className="text-2xl flex items-center gap-2">
               <Camera className="h-6 w-6" />
               Visitor Photo
